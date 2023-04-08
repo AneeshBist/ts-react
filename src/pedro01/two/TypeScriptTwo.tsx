@@ -1,5 +1,5 @@
 import React,{FC} from 'react'
-import {Person} from './Person'
+import {Person, HairColor} from './Person'
 
 const TypeScriptTwo:FC = () => {
 
@@ -7,7 +7,7 @@ const TypeScriptTwo:FC = () => {
 
   return (
     <div>
-      <Person name="Billy" age={20} email="something@gog.com"/>
+      <Person name="Billy" age={20} email="something@gog.com" hairColor={HairColor.Blonde}/>
     </div>
   )
 }

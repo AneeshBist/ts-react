@@ -1,18 +1,5 @@
 import {FC,ChangeEvent, useState} from 'react';
-
-interface Props {
-    name: string;
-    age: number;
-    email: string;
-    getName?: (name:string) => string;
-    hairColor: HairColor
-}
-
-export enum HairColor {
-  Blonde = "your hair is blonde, great",
-  Brown = "nice hair color",
-  Grey = "that's some color of hair",
-}
+import { Props } from './Interfaces';
 
 export const Person:FC<Props> = (props) => {
 
