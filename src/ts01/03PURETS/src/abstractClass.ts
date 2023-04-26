@@ -5,6 +5,9 @@ abstract class TakePhoto{
     ){}
 
     abstract getSepia():void
+    getReelTime(): number{
+        return 8
+    }
 }
 
 class Instagram extends TakePhoto{
